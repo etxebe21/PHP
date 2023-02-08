@@ -13,7 +13,7 @@ export function btnStartDown(event)
     document.getElementById('divCanvas').style.display = "block";
 
     //Ruta o absoluta o elativa al fivchero que hace la peticion(HTML)
-    const url = "http://localhost/BookCardExample/SERVER/routes/getAllClassic.php"
+    const url = "http://localhost/php/PHP/BookCardExample/SERVER/routes/getAllClassic.php"
     const request = new XMLHttpRequest();
 
     request.onreadystatechange = function()
@@ -40,7 +40,7 @@ export function btnStartDown(event)
     request.open('GET', url, true);
     request.responseType = "text";
     request.send();
-}º
+}
 
 export function btnStartOver(event)
 {
@@ -78,7 +78,7 @@ export function btnAddDown(event)
     console.log(dataToSend);
 
     //Ruta relativa al fichero que hace la peticion(testAjax.php)
-    const url = "http://localhost/BookCardExample/SERVER/routes/postClassic.php";
+    const url = "http://localhost/php/PHP/BookCardExample/SERVER/routes/postClassic.php";
     const request = new XMLHttpRequest();
     request.open('POST', url, true);
     request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");

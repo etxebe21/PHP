@@ -1,4 +1,4 @@
-export default Card
+export default class Card
 {
     constructor(xPos,yPos, isbn, title, year,author, category)
     {
@@ -6,7 +6,8 @@ export default Card
         this.yPos        = yPos;      // Posicion inicial en Y
         this.isbn        = isbn      
         this.title       = title;
-        this.year        = year;      
+        this.year        = year; 
+        this.author       = author;     
         this.category    = category;
     }
 }
