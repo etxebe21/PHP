@@ -48,13 +48,14 @@ function createCards(data)
         card = new Card(
             0,
             0,
-            data[i].ISBN,
-            data[i].TITLE,
-            data[i].YEAR,
-            data[i].AUTHOR,
-            data[i].CATEGORY,
+            data[i].isbn,
+            data[i].title,
+            data[i].year,
+            data[i].author,
+            data[i].category,
         )
         globals.cards.push(card);
+     
     }
     //Posicionamos las cartas en la pantalla
     setCardPosition();

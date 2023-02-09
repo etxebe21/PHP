@@ -100,6 +100,7 @@ export function btnAddDown(event)
 
                     //Iniciamos los datos
                     initGame(arrayResult);
+                    console.log(arrayResult);
                 }
                 else
                     alert("Communication error: No data received");

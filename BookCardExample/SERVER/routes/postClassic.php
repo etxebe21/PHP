@@ -2,11 +2,11 @@
     require_once (__DIR__."/../controller/Controller.php");
 
     //TEST POST ROUTE. Quitar posteriormente
-    $_POST['author'] = 'James Cameron';
-    $_POST['title'] = 'Aliens 2';
-    $_POST['category'] = 'Thriller';
-    $_POST['year'] = '1998';
-    $_POST['isbn'] = "2734535665780";
+    // $_POST['author'] = 'James Cameron';
+    // $_POST['title'] = 'Aliens 2';
+    // $_POST['category'] = 'Thriller';
+    // $_POST['year'] = '1998';
+    // $_POST['isbn'] = "2734535665780";
 
     if(isset($_POST['author']) && isset($_POST['title']) && isset($_POST['category']) 
     && isset($_POST['year']) && isset($_POST['isbn']))
