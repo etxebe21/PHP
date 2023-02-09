@@ -48,11 +48,11 @@ function createCards(data)
         card = new Card(
             0,
             0,
-            data[i].Isbn,
-            data[i].Title,
-            data[i].Year,
-            data[i].Author,
-            data[i].Category,
+            data[i].ISBN,
+            data[i].TITLE,
+            data[i].YEAR,
+            data[i].AUTHOR,
+            data[i].CATEGORY,
         )
         globals.cards.push(card);
     }

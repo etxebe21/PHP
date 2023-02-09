@@ -25,8 +25,8 @@ export function btnStartDown(event)
                 if(this.responseText != null)
                 {
                     const resultJSON = JSON.parse(this.responseText);
-                    //console.log (resultJSON);
-
+                    console.log (resultJSON);
+                    console.log("entra");
                     //Iniciamos los datos del juego
                     initGame(resultJSON);
                 }
