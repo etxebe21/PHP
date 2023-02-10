@@ -1,0 +1,9 @@
+#gameScreen{
+    border: rgb(138, 48, 48);
+    border-style: solid;
+    background-color: rgb(19, 17, 7);
+}
+
+#body {
+    background-color: #0f1473;
+}
